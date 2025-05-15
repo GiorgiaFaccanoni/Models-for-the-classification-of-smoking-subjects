@@ -1,2 +1,8 @@
 # Models-for-the-classification-of-smoking-subjects
 This study presents a classification analysis aiming to identify, based on biological values, which individuals in the Korean NHIS healthcare system are smokers. Several data mining classification methods were tested, including logistic regression, K-nearest neighbors, and Random Forest.
+## Overview 
+Smoking is a common habit among many people; however, it is one of the leading causes of various diseases, some more severe than others. After age, smoking is the most important risk factor for cardiovascular diseases. A smoker’s life expectancy is eight years shorter than that of a non-smoker. Moreover, smokers have twice the risk of heart attack and ten times the risk of lung and laryngeal cancer compared to non-smokers.
+
+For organizations managing healthcare systems, knowing a person’s smoking status is important, as it can lead to increased healthcare costs. An example of this issue was presented in 2014 by the National Health Insurance Service (NHIS), the single national insurance system in South Korea. The organization filed a lawsuit against KT&G, the main Korean tobacco producer, seeking compensation of 53.3 billion won for the treatment costs of patients with lung and laryngeal cancer. Consequently, NHIS collected various information about their clients, including their smoking status.
+
+Our analysis aims to provide a classification model capable of predicting the smoking status of new subjects based on certain biological values, enabling NHIS to estimate the number of smokers among their clients. To build this model, we used key classification methods such as logistic regression, K-Nearest Neighbors, and Random Forest, achieving the most efficient model with Random Forest.
